@@ -36,3 +36,33 @@ alert(div1 === div2);
 document.write(div1.childNodes.length);
 </script>
 </body>
+
+search(node, target)
+{
+  if (node.style.color==target)
+  return node;
+  let childs = 
+  node.childNodes;
+  search(node.childNodes;
+  for (let i=o; i<childs.length; i++)
+}
+
+childNodes is an array
+parentNode not an array
+previousSibling
+nextSibling
+
+events: 20-30 events 
+OS: 100000 events
+-
+onclick
+onkeypress
+onmousedown
+onmouseup
+onmouseover
+onmouseexit
+onfocus
+onblur(losing focus)
+onchange
+
+<td onclick=function1() onmouseover=function2() onmouseout=function3()>
