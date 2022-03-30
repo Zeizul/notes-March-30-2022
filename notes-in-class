@@ -1,0 +1,38 @@
+lete ele = document.getElementBy('id');
+to delete: ele.parentNote.removeChild(ele);
+
+ele.style.color='red';
+ele.style.backgroundColor='white';
+
+let newele = document.createElement('p');
+newle.innerHTML = 'any HTML code';
+document.body.appendChild(newele);
+
+eleinnerHTML = 'sddf';
+<div attribute1=value> inner html </div>
+
+let dv = documentElement('div);
+dv.id = 'meaningfullid';
+dv.style.cssText = 'color:red;background=color:white;font-size:17px';
+dv.innerHTML = 'what ever';
+document.body.appendChild(dv);
+dv.onclick = function() {alert('clicked');}
+
+<div>
+<div> sfsd</div>
+<p> dgfd</p>
+</div>
+
+<html>
+<body>
+<div id=q>
+<div> sfsd</div>
+<p> dgfd</p>
+</div>
+<script>
+let div1 = document.getElementByIs('q');
+let div2 = document.getElementsByTageName('div')[0];
+alert(div1 === div2);
+document.write(div1.childNodes.length);
+</script>
+</body>
